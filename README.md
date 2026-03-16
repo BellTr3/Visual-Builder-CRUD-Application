@@ -4,6 +4,8 @@ A cloud-based CRUD application developed using Oracle Visual Builder Studio (VBS
 
 The HR Web Application follows a simple cloud-based architecture where the user interface communicates with the Oracle ATP database through REST-based services.
 
+<img src="Screenshots/Home_Page.png"/>
+
 ### Step-by-Step Flow
 
 1. **User Interaction**
@@ -38,13 +40,22 @@ The HR Web Application follows a simple cloud-based architecture where the user 
 **Create Employee**
 User enters employee details → Visual Builder sends POST request → ATP database stores record → UI refreshes employee list.
 
+<img src="Screenshots/Create_Record.png"/>
+
 **Update Employee**
 User edits employee information → PUT request sent to database → record updated → table refreshed.
+
+<img src="Screenshots/Edit_Page.png"/>
 
 **Delete Employee**
 User deletes an employee → DELETE request sent → record removed from ATP → dashboard updates automatically.
 
+<img src="Screenshots/Delete_Record.png"/>
+
 ---
+
+## ATP Database Preview
+<img src="Screenshots/ATP_Database.png"/>
 
 ## Data Visualization
 
